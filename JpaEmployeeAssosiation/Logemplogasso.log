@@ -1,0 +1,160 @@
+05 Jul 2021 18:00:19,986 INFO main org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+05 Jul 2021 18:00:19,989 INFO main org.hibernate.cfg.Environment - Hibernate 3.6.10.Final
+05 Jul 2021 18:00:19,990 INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+05 Jul 2021 18:00:19,993 INFO main org.hibernate.cfg.Environment - Bytecode provider name : javassist
+05 Jul 2021 18:00:19,994 INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+05 Jul 2021 18:00:20,023 INFO main org.hibernate.ejb.Version - Hibernate EntityManager 3.6.10.Final
+05 Jul 2021 18:00:20,148 INFO main org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: Employee
+05 Jul 2021 18:00:20,165 INFO main org.hibernate.cfg.annotations.EntityBinder - Bind entity Employee on table employee_hib_asso
+05 Jul 2021 18:00:20,193 INFO main org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: Address
+05 Jul 2021 18:00:20,193 INFO main org.hibernate.cfg.annotations.EntityBinder - Bind entity Address on table address_hib_asso
+05 Jul 2021 18:00:20,198 INFO main org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+05 Jul 2021 18:00:20,211 INFO main org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+05 Jul 2021 18:00:20,215 INFO main org.hibernate.connection.DriverManagerConnectionProvider - Using Hibernate built-in connection pool (not for production use!)
+05 Jul 2021 18:00:20,215 INFO main org.hibernate.connection.DriverManagerConnectionProvider - Hibernate connection pool size: 20
+05 Jul 2021 18:00:20,215 INFO main org.hibernate.connection.DriverManagerConnectionProvider - autocommit mode: true
+05 Jul 2021 18:00:20,251 INFO main org.hibernate.connection.DriverManagerConnectionProvider - using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://127.0.0.1/ust
+05 Jul 2021 18:00:20,251 INFO main org.hibernate.connection.DriverManagerConnectionProvider - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+05 Jul 2021 18:00:20,793 INFO main org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+05 Jul 2021 18:00:20,800 INFO main org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 8.0.22
+      major : 8
+      minor : 0
+05 Jul 2021 18:00:20,800 INFO main org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.19 (Revision: a0ca826f5cdf51a98356fdfb1bf251eb042f80bf)
+      major : 8
+      minor : 0
+05 Jul 2021 18:00:20,800 INFO main org.hibernate.transaction.TransactionFactoryFactory - Using default transaction strategy (direct JDBC transactions)
+05 Jul 2021 18:00:20,801 INFO main org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+05 Jul 2021 18:00:20,801 INFO main org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+05 Jul 2021 18:00:20,801 INFO main org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+05 Jul 2021 18:00:20,801 INFO main org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+05 Jul 2021 18:00:20,801 INFO main org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+05 Jul 2021 18:00:20,802 INFO main org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+05 Jul 2021 18:00:20,802 INFO main org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+05 Jul 2021 18:00:20,802 INFO main org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+05 Jul 2021 18:00:20,802 INFO main org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+05 Jul 2021 18:00:20,802 INFO main org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+05 Jul 2021 18:00:20,802 INFO main org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+05 Jul 2021 18:00:20,803 INFO main org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+05 Jul 2021 18:00:20,803 INFO main org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+05 Jul 2021 18:00:20,803 INFO main org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+05 Jul 2021 18:00:20,803 INFO main org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+05 Jul 2021 18:00:20,803 INFO main org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+05 Jul 2021 18:00:20,804 INFO main org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: enabled
+05 Jul 2021 18:00:20,804 INFO main org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+05 Jul 2021 18:00:20,804 INFO main org.hibernate.cfg.SettingsFactory - Query cache: disabled
+05 Jul 2021 18:00:20,804 INFO main org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+05 Jul 2021 18:00:20,804 INFO main org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+05 Jul 2021 18:00:20,804 INFO main org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+05 Jul 2021 18:00:20,806 INFO main org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+05 Jul 2021 18:00:20,807 INFO main org.hibernate.cfg.SettingsFactory - Statistics: disabled
+05 Jul 2021 18:00:20,807 INFO main org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+05 Jul 2021 18:00:20,807 INFO main org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+05 Jul 2021 18:00:20,807 INFO main org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+05 Jul 2021 18:00:20,807 INFO main org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+05 Jul 2021 18:00:20,816 INFO main org.hibernate.impl.SessionFactoryImpl - building session factory
+05 Jul 2021 18:00:20,818 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@2d0399f4
+05 Jul 2021 18:00:20,818 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@2d0399f4
+05 Jul 2021 18:00:20,819 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@14dd7b39
+05 Jul 2021 18:00:20,819 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@14dd7b39
+05 Jul 2021 18:00:20,819 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@66ea810
+05 Jul 2021 18:00:20,819 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@6cd24612
+05 Jul 2021 18:00:20,819 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@5dafbe45
+05 Jul 2021 18:00:20,819 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@2254127a
+05 Jul 2021 18:00:20,819 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@51891008
+05 Jul 2021 18:00:20,887 INFO main org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+05 Jul 2021 18:00:20,889 INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+05 Jul 2021 18:00:20,889 INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+05 Jul 2021 18:00:20,893 INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+05 Jul 2021 18:00:20,955 INFO main org.hibernate.tool.hbm2ddl.TableMetadata - table found: ust.address_hib_asso
+05 Jul 2021 18:00:20,955 INFO main org.hibernate.tool.hbm2ddl.TableMetadata - columns: [city, street, id]
+05 Jul 2021 18:00:20,955 INFO main org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+05 Jul 2021 18:00:20,955 INFO main org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary]
+05 Jul 2021 18:00:20,969 INFO main org.hibernate.tool.hbm2ddl.TableMetadata - table found: ust.employee_hib_asso
+05 Jul 2021 18:00:20,969 INFO main org.hibernate.tool.hbm2ddl.TableMetadata - columns: [mobile, name, address_id, id]
+05 Jul 2021 18:00:20,969 INFO main org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk3c9bf27d6ebf151a]
+05 Jul 2021 18:00:20,969 INFO main org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [fk3c9bf27d6ebf151a, primary]
+05 Jul 2021 18:00:20,969 INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+05 Jul 2021 18:09:08,847 INFO main org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+05 Jul 2021 18:09:08,851 INFO main org.hibernate.cfg.Environment - Hibernate 3.6.10.Final
+05 Jul 2021 18:09:08,852 INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+05 Jul 2021 18:09:08,853 INFO main org.hibernate.cfg.Environment - Bytecode provider name : javassist
+05 Jul 2021 18:09:08,855 INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+05 Jul 2021 18:09:08,885 INFO main org.hibernate.ejb.Version - Hibernate EntityManager 3.6.10.Final
+05 Jul 2021 18:09:09,005 INFO main org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: Employee
+05 Jul 2021 18:09:09,021 INFO main org.hibernate.cfg.annotations.EntityBinder - Bind entity Employee on table employee_hib_asso
+05 Jul 2021 18:09:09,047 INFO main org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: Address
+05 Jul 2021 18:09:09,047 INFO main org.hibernate.cfg.annotations.EntityBinder - Bind entity Address on table address_hib_asso
+05 Jul 2021 18:09:09,052 INFO main org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+05 Jul 2021 18:09:09,064 INFO main org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+05 Jul 2021 18:09:09,068 INFO main org.hibernate.connection.DriverManagerConnectionProvider - Using Hibernate built-in connection pool (not for production use!)
+05 Jul 2021 18:09:09,068 INFO main org.hibernate.connection.DriverManagerConnectionProvider - Hibernate connection pool size: 20
+05 Jul 2021 18:09:09,068 INFO main org.hibernate.connection.DriverManagerConnectionProvider - autocommit mode: true
+05 Jul 2021 18:09:09,106 INFO main org.hibernate.connection.DriverManagerConnectionProvider - using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://127.0.0.1/ust
+05 Jul 2021 18:09:09,106 INFO main org.hibernate.connection.DriverManagerConnectionProvider - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+05 Jul 2021 18:09:09,640 INFO main org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+05 Jul 2021 18:09:09,646 INFO main org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 8.0.22
+      major : 8
+      minor : 0
+05 Jul 2021 18:09:09,646 INFO main org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.19 (Revision: a0ca826f5cdf51a98356fdfb1bf251eb042f80bf)
+      major : 8
+      minor : 0
+05 Jul 2021 18:09:09,646 INFO main org.hibernate.transaction.TransactionFactoryFactory - Using default transaction strategy (direct JDBC transactions)
+05 Jul 2021 18:09:09,647 INFO main org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+05 Jul 2021 18:09:09,647 INFO main org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+05 Jul 2021 18:09:09,647 INFO main org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+05 Jul 2021 18:09:09,647 INFO main org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+05 Jul 2021 18:09:09,647 INFO main org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+05 Jul 2021 18:09:09,648 INFO main org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+05 Jul 2021 18:09:09,648 INFO main org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+05 Jul 2021 18:09:09,648 INFO main org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+05 Jul 2021 18:09:09,648 INFO main org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+05 Jul 2021 18:09:09,648 INFO main org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+05 Jul 2021 18:09:09,648 INFO main org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+05 Jul 2021 18:09:09,648 INFO main org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+05 Jul 2021 18:09:09,648 INFO main org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+05 Jul 2021 18:09:09,648 INFO main org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+05 Jul 2021 18:09:09,649 INFO main org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+05 Jul 2021 18:09:09,649 INFO main org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+05 Jul 2021 18:09:09,649 INFO main org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: enabled
+05 Jul 2021 18:09:09,649 INFO main org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+05 Jul 2021 18:09:09,649 INFO main org.hibernate.cfg.SettingsFactory - Query cache: disabled
+05 Jul 2021 18:09:09,649 INFO main org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+05 Jul 2021 18:09:09,650 INFO main org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+05 Jul 2021 18:09:09,650 INFO main org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+05 Jul 2021 18:09:09,651 INFO main org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+05 Jul 2021 18:09:09,652 INFO main org.hibernate.cfg.SettingsFactory - Statistics: disabled
+05 Jul 2021 18:09:09,652 INFO main org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+05 Jul 2021 18:09:09,652 INFO main org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+05 Jul 2021 18:09:09,652 INFO main org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+05 Jul 2021 18:09:09,652 INFO main org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+05 Jul 2021 18:09:09,661 INFO main org.hibernate.impl.SessionFactoryImpl - building session factory
+05 Jul 2021 18:09:09,663 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@2d0399f4
+05 Jul 2021 18:09:09,664 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@2d0399f4
+05 Jul 2021 18:09:09,664 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@14dd7b39
+05 Jul 2021 18:09:09,664 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@14dd7b39
+05 Jul 2021 18:09:09,664 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@66ea810
+05 Jul 2021 18:09:09,664 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@6cd24612
+05 Jul 2021 18:09:09,664 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@5dafbe45
+05 Jul 2021 18:09:09,664 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@2254127a
+05 Jul 2021 18:09:09,664 INFO main org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@51891008
+05 Jul 2021 18:09:09,732 INFO main org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+05 Jul 2021 18:09:09,734 INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+05 Jul 2021 18:09:09,735 INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+05 Jul 2021 18:09:09,739 INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+05 Jul 2021 18:09:09,825 INFO main org.hibernate.tool.hbm2ddl.TableMetadata - table found: ust.address_hib_asso
+05 Jul 2021 18:09:09,826 INFO main org.hibernate.tool.hbm2ddl.TableMetadata - columns: [city, street, id]
+05 Jul 2021 18:09:09,826 INFO main org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+05 Jul 2021 18:09:09,826 INFO main org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary]
+05 Jul 2021 18:09:09,840 INFO main org.hibernate.tool.hbm2ddl.TableMetadata - table found: ust.employee_hib_asso
+05 Jul 2021 18:09:09,840 INFO main org.hibernate.tool.hbm2ddl.TableMetadata - columns: [mobile, name, address_id, id]
+05 Jul 2021 18:09:09,840 INFO main org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk3c9bf27d6ebf151a]
+05 Jul 2021 18:09:09,841 INFO main org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [fk3c9bf27d6ebf151a, primary]
+05 Jul 2021 18:09:09,841 INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete

@@ -1,0 +1,15 @@
+25 Jun 2021 10:25:08,384 INFO main com.ust.dao.EmployeeDaoImpl - Employee [id=0, name=nidhi, mobile=98989898, designation=lead]
+25 Jun 2021 10:25:09,054 INFO main com.ust.dao.EmployeeDaoImpl - id: 1
+25 Jun 2021 11:23:12,011 INFO main com.ust.dao.EmployeeDaoImpl - id: 10001
+25 Jun 2021 11:23:12,635 INFO main com.ust.dao.EmployeeDaoImpl - Employee [id=0, name=Sandeep, mobile=9678423311, designation=Trainee]
+25 Jun 2021 11:23:12,642 INFO main com.ust.dao.EmployeeDaoImpl - id: 1
+25 Jun 2021 13:05:03,896 INFO main com.ust.dao.EmployeeDaoImpl - id: 3
+25 Jun 2021 13:05:04,624 INFO main com.ust.dao.EmployeeDaoImpl - id: 10001
+25 Jun 2021 13:05:04,627 INFO main com.ust.dao.EmployeeDaoImpl - Employee [id=0, name=Sandeep, mobile=9678423311, designation=Trainee]
+25 Jun 2021 13:05:04,633 INFO main com.ust.dao.EmployeeDaoImpl - id: 1
+25 Jun 2021 13:06:02,931 INFO main com.ust.dao.EmployeeDaoImpl - id: 3
+25 Jun 2021 13:06:03,630 INFO main com.ust.dao.EmployeeDaoImpl - Employee [id=0, name=Sandeep, mobile=9678423311, designation=Trainee]
+25 Jun 2021 13:06:03,639 INFO main com.ust.dao.EmployeeDaoImpl - id: 1
+25 Jun 2021 13:06:24,707 INFO main com.ust.dao.EmployeeDaoImpl - id: 3
+25 Jun 2021 13:06:25,345 INFO main com.ust.dao.EmployeeDaoImpl - Employee [id=0, name=Sandeep, mobile=9678423311, designation=Trainee]
+25 Jun 2021 13:06:25,350 INFO main com.ust.dao.EmployeeDaoImpl - id: 1
